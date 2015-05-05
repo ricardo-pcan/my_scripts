@@ -1,3 +1,4 @@
+#!/bin/bash
 function restricted_extras(){
 	echo ""
 	echo "############################################"

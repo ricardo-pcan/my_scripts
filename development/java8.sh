@@ -1,4 +1,5 @@
-function (){
+#!/bin/bash
+function java8(){
 	echo ""
 	echo "############################################"
 	echo "############### INSTALL < JAVA8 > ###############"

@@ -30,3 +30,11 @@ function cleaningUp(){
 		sudo apt-get -y clean
 	)&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 }
+
+function checkColors(){
+	if [ $(tput colors) ]; then
+		red="\e[31m"
+		green="\e[32m"
+		endcolor="\e[39m"
+	fi
+}

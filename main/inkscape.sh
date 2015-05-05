@@ -1,3 +1,4 @@
+#!/bin/bash
 function inkscape(){
 	echo ""
 	echo "############################################"

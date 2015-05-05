@@ -1,8 +1,8 @@
 #!/bin/bash
-function (){
+function main_repos(){
 	echo ""
 	echo "#####################################################"
-	echo "############### INSTALL < ADD REPOS > ###############"
+	echo "############### INSTALL < ADD REPOS MAIN > ###############"
 	echo "#####################################################"
 	echo ""
 	sleep 2

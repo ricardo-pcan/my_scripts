@@ -11,15 +11,7 @@
 			"file": "development/repos.sh",
 			"settings":
 			{
-				"buffer_size": 673,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "development/nginx.sh",
-			"settings":
-			{
-				"buffer_size": 324,
+				"buffer_size": 682,
 				"line_ending": "Unix"
 			}
 		},
@@ -27,23 +19,23 @@
 			"file": "development/chrome.sh",
 			"settings":
 			{
-				"buffer_size": 315,
+				"buffer_size": 327,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "development.sh",
+			"file": "development/i3.sh",
 			"settings":
 			{
-				"buffer_size": 5418,
+				"buffer_size": 341,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "ripper-ubuntu.sh",
+			"file": "ripper.sh",
 			"settings":
 			{
-				"buffer_size": 13915,
+				"buffer_size": 416,
 				"line_ending": "Unix"
 			}
 		}
@@ -91,10 +83,19 @@
 	],
 	"file_history":
 	[
-		"/home/ricardo-pcan/myprojects/my-scripts/development/i3.sh",
+		"/home/ricardo-pcan/myprojects/my-scripts/libs.sh",
+		"/home/ricardo-pcan/myprojects/my-scripts/ripper-ubuntu.sh",
+		"/home/ricardo-pcan/myprojects/my-scripts/utils.sh",
+		"/home/ricardo-pcan/myprojects/my-scripts/development.sh",
+		"/home/ricardo-pcan/myprojects/my-scripts/repos.sh",
+		"/home/ricardo-pcan/myprojects/my-scripts/development/zlib.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/development/nightly.sh",
+		"/home/ricardo-pcan/myprojects/my-scripts/development/nginx.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/development/java8.sh",
+		"/home/ricardo-pcan/myprojects/my-scripts/development/i3.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/main/repos.sh",
+		"/home/ricardo-pcan/myprojects/my-scripts/developer_programs.sh",
+		"/home/ricardo-pcan/myprojects/my-scripts/main/turpial.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/main/gmusic.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/main/gmusic,sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/main/nuvola.sh",
@@ -112,10 +113,8 @@
 		"/home/ricardo-pcan/myprojects/my-scripts/ripper.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/development/repos.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/main/kvm.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/utils.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/layout.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/main/initializers.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/repos.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/development/layout.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/init.sh",
 		"/home/ricardo-pcan/myprojects/my-scripts/development/test.sh",
@@ -164,7 +163,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -173,15 +172,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 673,
+						"buffer_size": 682,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								583,
-								583
+								0,
+								0
 							]
 						],
 						"settings":
@@ -199,47 +198,11 @@
 				},
 				{
 					"buffer": 1,
-					"file": "development/nginx.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 324,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								233,
-								233
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
 					"file": "development/chrome.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 315,
+						"buffer_size": 327,
 						"regions":
 						{
 						},
@@ -259,30 +222,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 3,
-					"file": "development.sh",
+					"buffer": 2,
+					"file": "development/i3.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5418,
+						"buffer_size": 341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								441,
-								441
+								11,
+								11
 							]
 						],
 						"settings":
@@ -294,42 +251,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 4,
-					"file": "ripper-ubuntu.sh",
+					"buffer": 3,
+					"file": "ripper.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13915,
+						"buffer_size": 416,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12250,
-								12250
+								11,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2
 						},
 						"translation.x": 0.0,
-						"translation.y": 6994.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -352,36 +303,16 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
-			],
-			[
-				1,
-				1,
-				2,
-				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.5,
 			1.0
 		]
 	},
