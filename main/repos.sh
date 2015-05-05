@@ -1,5 +1,5 @@
 #!/bin/bash
-function main_repos(){
+function main_repos() {
 	echo ""
 	echo "#####################################################"
 	echo "############### INSTALL < ADD REPOS MAIN > ###############"

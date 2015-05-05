@@ -1,5 +1,5 @@
 #!/bin/bash
-function restricted_extras(){
+function restricted_extras() {
 	echo ""
 	echo "############################################"
 	echo "############### INSTALL < RESTRICTED EXTRAS > ###############"

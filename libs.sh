@@ -1,22 +1,22 @@
 #!/bin/bash
 ## DEVELOPMENT
-	sh development/i3.sh
-	sh development/java8.sh
-	sh development/nginx.sh
-	sh development/zlib.sh
+	source development/i3.sh
+	source development/java8.sh
+	source development/nginx.sh
+	source development/zlib.sh
 
 
 ## MAIN
-	sh main/curl.sh
-	sh main/filezilla.sh
-	sh main/gimp.sh
-	sh main/git.sh
-	sh main/gmusic.sh
-	sh main/gparted.sh
-	sh main/grive.sh
-	sh main/inkscape.sh
-	sh main/nuvola.sh
-	sh main/restricted_extras.sh
-	sh main/svn.sh
-	sh main/terminator.sh
-	sh main/turpial.sh
+	source main/curl.sh
+	source main/filezilla.sh
+	source main/gimp.sh
+	source main/git.sh
+	source main/gmusic.sh
+	source main/gparted.sh
+	source main/grive.sh
+	source main/inkscape.sh
+	source main/nuvola.sh
+	source main/restricted_extras.sh
+	source main/svn.sh
+	source main/terminator.sh
+	source main/turpial.sh

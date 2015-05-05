@@ -1,10 +1,11 @@
-function greet(){
+#!/bin/bash
+function greet() {
 	echo "##########################################################"
 	echo "############### HELLO RIPPER::INSTALL < > ################"
 	echo "##########################################################"
 }
 
-function update(){
+function update() {
 	echo ""
 	echo "#######################################"
 	echo "############### UPDATE ################"
@@ -17,7 +18,7 @@ function update(){
 	)&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }
-function cleaningUp(){
+function cleaningUp() {
 	echo ""
 	echo "##############################################"
 	echo "################ CLEANNING UP ################"
@@ -31,7 +32,7 @@ function cleaningUp(){
 	)&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 }
 
-function checkColors(){
+function checkColors() {
 	if [ $(tput colors) ]; then
 		red="\e[31m"
 		green="\e[32m"

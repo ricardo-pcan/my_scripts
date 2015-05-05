@@ -1,5 +1,5 @@
 #!/bin/bash
-function dev_repos(){
+function dev_repos() {
 	echo ""
 	echo "#################################################################"
 	echo "############### INSTALL < ADD REPOS DEVELOPMENT > ###############"

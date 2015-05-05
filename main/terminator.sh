@@ -1,5 +1,5 @@
 #!/bin/bash
-function terminator(){
+function terminator() {
 	echo ""
 	echo "######################################################"
 	echo "############### INSTALL < TERMINATOR > ###############"

@@ -1,5 +1,5 @@
 #!/bin/bash
-function gimp(){
+function gimp() {
 	echo ""
 	echo "############################################"
 	echo "############### INSTALL < GIMP > ###############"

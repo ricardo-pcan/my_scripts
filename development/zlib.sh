@@ -1,5 +1,5 @@
 #!/bin/bash
-function zlib(){
+function zlib() {
 	echo ""
 	echo "############################################"
 	echo "############### INSTALL < ZLIB > ###############"

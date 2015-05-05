@@ -1,5 +1,5 @@
 #!/bin/bash
-function nightly(){
+function nightly() {
 	echo ""
 	echo "############################################"
 	echo "############### INSTALL <  > ###############"

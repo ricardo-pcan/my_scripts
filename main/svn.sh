@@ -1,5 +1,5 @@
 #!/bin/bash
-function svn(){
+function svn() {
 	echo ""
 	echo "###########################################"
 	echo "############### INSTALL SVN ###############"

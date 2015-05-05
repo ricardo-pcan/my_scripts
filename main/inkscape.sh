@@ -1,5 +1,5 @@
 #!/bin/bash
-function inkscape(){
+function inkscape() {
 	echo ""
 	echo "############################################"
 	echo "############### INSTALL < INKSPCAPE > ###############"

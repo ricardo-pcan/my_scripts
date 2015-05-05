@@ -1,5 +1,5 @@
 #!/bin/bash
-function (){
+function nuvola() {
 	echo ""
 	echo "#########################################################"
 	echo "############### INSTALL < NUVOLA PLAYER > ###############"

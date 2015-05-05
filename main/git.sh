@@ -1,5 +1,5 @@
 #!/bin/bash
-function git(){
+function git() {
 	echo ""
 	echo "###########################################"
 	echo "############### INSTALL GIT ###############"

@@ -1,5 +1,5 @@
 #!/bin/bash
-function (){
+function turpial() {
 	echo ""
 	echo "###################################################"
 	echo "############### INSTALL < TURPIAL > ###############"

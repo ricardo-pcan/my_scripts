@@ -1,5 +1,5 @@
 #!/bin/bash
-function nginx(){
+function nginx() {
 	echo ""
 	echo "############################################"
 	echo "############### INSTALL <  > ###############"

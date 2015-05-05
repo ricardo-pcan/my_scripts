@@ -1,5 +1,5 @@
-#!/bin/bash
-function clementine(){
+ #!/bin/bash
+function clementine() {
 	echo ""
 	echo "######################################################"
 	echo "############### INSTALL < CLEMENTINE > ###############"

@@ -1,5 +1,4 @@
-sh development/repos.sh
-sh main/repos.sh
+#!/bin/bash
 function repos(){
 	echo ""
 	echo "******************************************"
@@ -8,6 +7,9 @@ function repos(){
 	echo ""
 	sleep 2
 	(
+		source development/repos.sh
+		source main/repos.sh
+		
 		 dev_repos
 		 main_repos
 	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";

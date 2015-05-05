@@ -1,5 +1,5 @@
 #!/bin/bash
-function curl(){
+function curl() {
 	echo ""
 	echo "################################################"
 	echo "############### INSTALL < CURL > ###############"

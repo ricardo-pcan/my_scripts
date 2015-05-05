@@ -1,5 +1,5 @@
 #!/bin/bash
-function filezilla(){
+function filezilla() {
 	echo ""
 	echo "#####################################################"
 	echo "############### INSTALL < FILEZILLA > ###############"

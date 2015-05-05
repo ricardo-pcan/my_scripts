@@ -1,5 +1,5 @@
 #!/bin/bash
-function (){
+function grive() {
 	echo ""
 	echo "############################################"
 	echo "############### INSTALL < GRIVE > ###############"
