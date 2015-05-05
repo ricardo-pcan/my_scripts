@@ -9,7 +9,7 @@
 	source development/atom.sh
 	source development/mysql.sh
 	source development/php5.sh
-	source development/apache2
+	source development/apache2.sh
 
 ## MAIN
 	source main/curl.sh
@@ -26,6 +26,7 @@
 	source main/terminator.sh
 	source main/turpial.sh
 	source main/numix_circle.sh
-	source main/paper_theme.sh
+	source main/paper.sh
 	source main/unsettings.sh
 	source main/gchrome.sh
+	source main/clementine.sh

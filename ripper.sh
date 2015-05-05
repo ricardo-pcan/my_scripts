@@ -34,7 +34,7 @@
 				nuvola
 				gmusic
 				turpial
-				paper_theme
+				paper
 				unsettings
 				gchrome
 				environmentFolders

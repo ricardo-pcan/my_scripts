@@ -11,7 +11,7 @@ function dev_repos() {
 		sudo add-apt-repository ppa:webupd8team/java -y
 
 		# NIGHTLY
-		sudo apt-get install firefox-trunk -y
+		sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa -y
 
 		# I3
 		echo "deb http://debian.sur5r.net/i3/ $(lsb_release -c -s) universe" >> /etc/apt/sources.list
