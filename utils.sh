@@ -39,3 +39,23 @@ function checkColors() {
 		endcolor="\e[39m"
 	fi
 }
+
+function environmentFolders(){
+	echo ""
+	echo "################################################"
+	echo "################ CREATE FOLDERS ################"
+	echo "################################################"
+	echo ""
+	sleep 2
+	(
+		mkdir ~/mywork
+		mkdir ~/mysoftware
+		mkdir ~/myjunk
+		mkdir ~/myinbox
+		mkdir ~/myprojects
+		mkdir ~/myimages
+		mkdir ~/mymusic
+		mkdir ~/.ssh
+	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+
+}

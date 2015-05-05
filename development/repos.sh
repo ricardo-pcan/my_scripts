@@ -18,7 +18,8 @@ function dev_repos() {
 		sudo apt-get update
 		sudo apt-get --allow-unauthenticated install sur5r-keyring -y
 
-		
+		#SUBLIME TEXT
+		sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
 	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }

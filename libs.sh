@@ -4,7 +4,12 @@
 	source development/java8.sh
 	source development/nginx.sh
 	source development/zlib.sh
-
+	source development/nightly.sh
+	source development/sublime_text.sh
+	source development/atom.sh
+	source development/mysql.sh
+	source development/php5.sh
+	source development/apache2
 
 ## MAIN
 	source main/curl.sh
@@ -20,3 +25,7 @@
 	source main/svn.sh
 	source main/terminator.sh
 	source main/turpial.sh
+	source main/numix_circle.sh
+	source main/paper_theme.sh
+	source main/unsettings.sh
+	source main/gchrome.sh

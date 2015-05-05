@@ -34,12 +34,25 @@
 				nuvola
 				gmusic
 				turpial
+				paper_theme
+				unsettings
+				gchrome
+				environmentFolders
 
 			# DEVELOPMENT
 				nightly
 				i3
 				nginx
 				zlib
+				sublime_text
+				atom
+				php5
+				java8
+				mysql
+				apache2
+
+			# POST
+				cleaningUp
 
 	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
