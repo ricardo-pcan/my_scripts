@@ -10,6 +10,7 @@
 	source development/mysql.sh
 	source development/php5.sh
 	source development/apache2.sh
+	source development/node.sh
 
 ## MAIN
 	source main/curl.sh
