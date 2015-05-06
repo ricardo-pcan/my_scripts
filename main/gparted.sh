@@ -8,6 +8,6 @@ function gparted() {
 	sleep 2
 	(
 		sudo apt-get install gparted -y
-	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }

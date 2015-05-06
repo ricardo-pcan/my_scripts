@@ -8,6 +8,6 @@ function unsettings(){
 	sleep 2;
 	(
 		sudo apt install unsettings -y
-	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }

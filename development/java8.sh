@@ -8,6 +8,6 @@ function java8() {
 	sleep 2
 	(
 		sudo apt-get install oracle-java8-installer -y 
-	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }

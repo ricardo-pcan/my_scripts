@@ -1,5 +1,5 @@
 #!/bin/bash
-user="ricardo-pcan"
+user=$USER
 function kvm(){
 	echo ""
 	echo "###############################################"

@@ -69,6 +69,6 @@ function environmentFolders(){
 		mkdir ~/myimages
 		mkdir ~/mymusic
 		mkdir ~/.ssh
-	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 
 }

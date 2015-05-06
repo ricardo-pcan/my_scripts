@@ -70,7 +70,7 @@ function ruby2(){
 		rbenv install 2.2.1
 		rbenv global 2.2.1
 		gem install bundle
-	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 }
 
 
@@ -80,7 +80,7 @@ function rails(){
 		sudo apt-get install nodejs -y
 		gem install rails -v 4.2.0 --no-ri --no-doc
 		rbenv rehash
-	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 }
 
 function curl(){
@@ -102,7 +102,7 @@ function git(){
 	echo "---------- INSTALL GIT ---------------"
 	(
 		sudo apt-get install git -y
-	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 }
 
 function apache(){
