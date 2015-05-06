@@ -8,6 +8,6 @@ function i3() {
 	sleep 2
 	(
 		sudo apt-get install i3	-y 
-	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }

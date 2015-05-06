@@ -7,7 +7,7 @@ function atom(){
 	echo ""
 	sleep 2;
 	(
-		sudo  apt-get -y install atom 
-	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+		sudo apt-get -y install atom 
+	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }

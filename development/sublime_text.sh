@@ -8,6 +8,6 @@ function sublime_text(){
 	sleep 2;
 	(
 		sudo apt-get -y install sublime-text-installer 
-	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }

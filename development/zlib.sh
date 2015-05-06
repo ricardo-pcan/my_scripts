@@ -14,6 +14,6 @@ function zlib() {
 		sudo ./configure
 		sudo make
 		sudo make install
-	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }
