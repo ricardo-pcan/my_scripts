@@ -30,3 +30,4 @@
 	source main/unsettings.sh
 	source main/gchrome.sh
 	source main/clementine.sh
+	source main/kvm.sh

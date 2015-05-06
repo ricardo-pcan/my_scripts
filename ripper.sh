@@ -13,7 +13,7 @@
 
 		## PROCEDURE
 			# PRE
-			
+				upgrade
 				checkColors
 				repos
 				update
@@ -24,6 +24,7 @@
 				svn
 				curl
 				terminator
+				kvm
 				restricted_extras
 				gimp
 				inkscape

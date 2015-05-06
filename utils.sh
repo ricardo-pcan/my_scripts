@@ -18,6 +18,19 @@ function update() {
 	)&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }
+function upgrade() {
+	echo ""
+	echo "#######################################"
+	echo "############### UPDATE ################"
+	echo "#######################################"
+	echo ""
+	sleep 2
+
+	(
+		sudo apt-get upgrade -y
+	)&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	
+}
 function cleaningUp() {
 	echo ""
 	echo "##############################################"

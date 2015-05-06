@@ -7,7 +7,7 @@ function apache2(){
 	echo ""
 	sleep 2;
 	(
-		ssudo apt-get install apache2 -y
+		sudo apt-get install apache2 -y
 	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }
