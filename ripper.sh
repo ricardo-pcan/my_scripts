@@ -13,7 +13,7 @@
 
 		## PROCEDURE
 			# PRE
-				upgrade
+				#upgrade
 				checkColors
 				repos
 				update
