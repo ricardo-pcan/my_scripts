@@ -6,4 +6,4 @@ source repos.sh
 source libs.sh
 
 	## TEST
-		node
+		zsh
