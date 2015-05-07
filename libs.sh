@@ -32,4 +32,4 @@
 	source main/gchrome.sh
 	source main/clementine.sh
 	source main/kvm.sh
-	source main/zsh
+	source main/zsh.sh
