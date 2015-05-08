@@ -9,6 +9,6 @@ function zsh(){
 	(
 		sudo apt-get install zsh -y
 		curl -L http://install.ohmyz.sh | sh 
-	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }
