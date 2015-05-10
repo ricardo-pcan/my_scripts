@@ -7,13 +7,8 @@ function node(){
 	echo ""
 	sleep 2;
 	(
-		cd /usr/local/src/
-		sudo curl -O http://nodejs.org/dist/v0.12.2/node-v0.12.2-linux-x64.tar.gz
-		sudo tar -xvf node-v0.12.2-linux-x64.tar.gz
-		sudo mv node-v0.12.2-linux-x64.tar.gz /usr/local/node
-		echo "export PATH=$PATH:/usr/local/node/bin" >> $HOME/.bashrc
-		source ~/.bashrc
+		sudo apt-get install nodejs -y
 		
-	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
+	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }

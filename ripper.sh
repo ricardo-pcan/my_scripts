@@ -53,6 +53,8 @@
 				mysql
 				apache2
 				zsh
+				node
+				django
 
 			# POST
 				cleaningUp

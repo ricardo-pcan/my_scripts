@@ -58,5 +58,5 @@ echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 echo "installing rails"
 (
 sudo apt-get install nodejs -y
-gem install rails -v 4.0.0 --no-ri --no-doc
+gem install rails -v 4.2.0 --no-ri --no-doc
 )&> /dev/null && echo -e '\e[32mOK\e[39m' || echo -e '\e[31mFAILED\e#[39m'; # Hide all output
