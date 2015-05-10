@@ -8,7 +8,7 @@ function zsh(){
 	sleep 2;
 	(
 		sudo apt-get install zsh -y
-		curl -L http://install.ohmyz.sh | sh 
+		wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 	) #&> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }

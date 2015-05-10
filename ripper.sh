@@ -51,6 +51,7 @@
 				java8
 				mysql
 				apache2
+				zsh
 
 			# POST
 				cleaningUp
