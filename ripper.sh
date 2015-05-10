@@ -20,7 +20,7 @@
 
 			# MAIN	
 
-				git
+				gitInstall
 				svn
 				curl
 				terminator
