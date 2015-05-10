@@ -38,6 +38,7 @@
 				paper
 				unsettings
 				gchrome
+				numix_circle
 				environmentFolders
 
 			# DEVELOPMENT
