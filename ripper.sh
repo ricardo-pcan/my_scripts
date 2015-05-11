@@ -55,7 +55,7 @@
 				zsh
 				node
 				django
-
+				emacs
 			# POST
 				cleaningUp
 
