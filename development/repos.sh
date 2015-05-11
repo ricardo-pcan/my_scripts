@@ -23,6 +23,9 @@ function dev_repos() {
 
 		# ATOM
 		sudo add-apt-repository ppa:webupd8team/atom -y
+
+		# EMACS
+		sudo add-apt-repository ppa:cassou/emacs -y
 	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 }
