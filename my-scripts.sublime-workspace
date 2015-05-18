@@ -3,10 +3,6 @@
 	{
 		"selected_items":
 		[
-			[
-				"development",
-				"development"
-			]
 		]
 	},
 	"buffers":
@@ -19,16 +15,52 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "insta",
+		"height": 375.0,
+		"last_filter": "stat",
 		"selected_items":
 		[
 			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git: add",
+				"Git: Add Current File"
+			],
+			[
+				"add",
+				"Git: Add Tag"
+			],
+			[
+				"git: stat",
+				"Git: Status"
+			],
+			[
 				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Git: stat",
+				"Git: Status"
+			],
+			[
+				"instal",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 746.0
+		"width": 500.0
 	},
 	"console":
 	{
@@ -49,78 +81,40 @@
 	},
 	"expanded_folders":
 	[
-		"/home/ricardo-pcan/myprojects/my-scripts",
-		"/home/ricardo-pcan/myprojects/my-scripts/development",
-		"/home/ricardo-pcan/myprojects/my-scripts/main"
+		"/home/ripper/my_scripts",
+		"/home/ripper/my_scripts/development"
 	],
 	"file_history":
 	[
-		"/home/ricardo-pcan/myprojects/my-scripts/libs/development.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/nightly.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/chrome.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/utils.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/ripper.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/curl.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/filezilla.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/gchrome.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/clementine.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/gimp.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/git.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/gmusic.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/gparted.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/grive.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/inkscape.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/numix_circle.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/nuvola.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/paper.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/repos.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/restricted_extras.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/svn.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/terminator.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/turpial.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/unsettings.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/kvm.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/repos.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/java8.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/libs/ripper-ubuntu.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/mysql.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/atom.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/i3.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/nginx.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/php5.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/sublime_text.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/zlib.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/apache2.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/ripper_init.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/init/repos.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/init/systemback.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/repos.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/libs.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/ripper-ubuntu.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/paper_theme.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/sublime_text-sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/developer_programs.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/gmusic,sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/layout.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/main/initializers.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/layout.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/init.sh",
-		"/home/ricardo-pcan/myprojects/my-scripts/development/test.sh",
-		"/home/ricardo-pcan/mywork/feather/talentspot/app/assets/javascripts/dashboard/messages/messages.js",
-		"/home/ricardo-pcan/mywork/feather/talentspot/config/initializers/websocket_rails.rb",
-		"/home/ricardo-pcan/mywork/feather/talentspot/db/seeds/agencies.rb"
+		"/home/ripper/my_scripts/development/emacs.sh",
+		"/home/ripper/my_scripts/ripper.sh",
+		"/home/ripper/my_scripts/development/chrome.sh",
+		"/home/ripper/my_scripts/development/repos.sh",
+		"/home/ripper/my_scripts/development/node.sh",
+		"/home/ripper/my_scripts/development/i3.sh",
+		"/home/ripper/.i3/config",
+		"/home/ripper/my_scripts/libs/developer_programs.sh",
+		"/home/ripper/my_scripts/libs.sh",
+		"/home/ripper/my_scripts/development/django.sh",
+		"/home/ripper/my_scripts/utils.sh",
+		"/home/ripper/my_scripts/development/rails.sh",
+		"/home/ripper/my_scripts/development/ruby.sh",
+		"/home/ripper/my_scripts/main/numix_circle.sh",
+		"/home/ripper/my_scripts/main/git.sh",
+		"/home/ripper/my_scripts/main/zsh.sh",
+		"/home/ripper/my_scripts/main/curl.sh",
+		"/home/ripper/my_scripts/main/repos.sh",
+		"/home/ripper/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -128,24 +122,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"virt",
-			"java8",
-			"restricted",
-			"mysql",
-			"#&>",
-			"sudo ",
-			"paper",
-			"sh ",
-			"sh",
-			"\"\n",
-			"bash",
-			"connection_id",
-			"assert_conversation",
-			"Websocket",
-			"websocket_rails.rb",
-			"websocket",
-			"messages_container",
-			"message_container"
+			"workspace"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -153,7 +130,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"&>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -167,11 +143,6 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
@@ -180,7 +151,7 @@
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -191,18 +162,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -215,6 +179,14 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 114.0
+	},
+	"output.git-push":
+	{
+		"height": 114.0
 	},
 	"pinned_build_system": "",
 	"project": "my-scripts.sublime-project",
@@ -250,7 +222,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -258,7 +230,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 287.0,
+	"side_bar_width": 279.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

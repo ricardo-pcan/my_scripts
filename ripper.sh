@@ -39,6 +39,7 @@
 				unsettings
 				gchrome
 				numix_circle
+				redditr
 				environmentFolders
 
 			# DEVELOPMENT
