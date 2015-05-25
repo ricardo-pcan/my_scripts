@@ -35,5 +35,8 @@ function main_repos() {
 	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
 		# ATUNES
-		sudo add-apt-repository ppa:noobslab/apps -y	
+		sudo add-apt-repository ppa:noobslab/apps -y
+
+		# CAIRO
+		sudo add-apt-repository ppa:cairo-dock-team -y	
 }
