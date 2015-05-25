@@ -34,4 +34,6 @@ function main_repos() {
 		sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 	) &> /dev/null && echo -e "$green OK $endcolor" || echo -e "$red FAILED $endcolor";
 	
+		# ATUNES
+		sudo add-apt-repository ppa:noobslab/apps -y	
 }

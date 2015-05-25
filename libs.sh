@@ -12,6 +12,7 @@
 	source development/apache2.sh
 	source development/node.sh
 	source development/django.sh
+	source development/vagrant.sh
 
 ## MAIN
 	source main/curl.sh
@@ -34,3 +35,5 @@
 	source main/clementine.sh
 	source main/kvm.sh
 	source main/zsh.sh
+	source main/virtualbox.sh
+	source main/atunes.sh
